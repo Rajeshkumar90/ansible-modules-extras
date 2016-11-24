@@ -68,15 +68,6 @@ EXAMPLES = '''
     level: user
 '''
 
+
 RETURN = '''
-pathvalue:
-    description: value to path variable
-    returned: success
-    type: string
-    sample: 'C:\Program Files\Java\bin'
-level:
-    description: Env to be set for User and Machine
-    returned: changed
-    type: string
-    sample: 'user'
 '''

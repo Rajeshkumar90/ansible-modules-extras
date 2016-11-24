@@ -30,13 +30,12 @@ description:
     - Uses .net Environment to set path environment variables and can set at User, Machine and Process level.  
     - User level path environment variables will be set, but available until the particular session is closed.
 options:
-
  pathvalue:
     description: 
       - The value to store in the path environment variable.
     required: true
     default: no default
-  level:
+ level:
     description: 
       - The level at which to set the environment variable.
       - Use 'machine' to set for all users.
@@ -59,11 +58,11 @@ notes:
 '''
 
 EXAMPLES = '''
-  # Set an path environment variable for all users
+# Set an path environment variable for all users
   win_addpath:
     pathvalue: 'C:\Program Files\Java\bin'
     level: machine
-  # Expand an path environment variable for the current users
+# Expand an path environment variable for the current users
   win_addpath:
     pathvalue: '%JAVA_HOME%/bin'
     level: user

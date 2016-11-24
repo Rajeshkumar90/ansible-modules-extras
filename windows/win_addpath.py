@@ -75,7 +75,7 @@ pathvalue:
     type: string
     sample: 'C:\Program Files\Java\bin'
 level:
-    description: Env to be set for (User,Machine)
+    description: Env to be set for User and Machine
     returned: changed
     type: string
     sample: 'user'

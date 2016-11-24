@@ -24,7 +24,7 @@
 DOCUMENTATION = '''
 ---
 module: win_addpath
-version_added: "1.0"
+version_added: "2.3"
 short_description: Append Path environment variables on windows hosts.
 description:
     - Uses .net Environment to set path environment variables and can set at User, Machine and Process level.  
